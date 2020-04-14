@@ -1,22 +1,13 @@
-<h1 align="center"> SDLOps </h1> <br>
+<h1 align="center"> SPL{ops} </h1> <br>
 <p align="center">
   <a href="https://github.com/NaorPenso/SDLOps/">
-    <img alt="SDLOps" title="SDLOps" src="https://i.imgur.com/zkLDA0e.png" width="450">
+    <img alt="SDLOps" title="SDLOps" src="https://i.imgur.com/zkLDA0e.png" width="250">
   </a>
 </p>
 
 <p align="center">
-  Unified approach for the management of SDLC within the CI/CD pipeline, from modeling to production security.
-</p>
-
-<p align="center">
-  <a href="https://itunes.apple.com/us/app/gitpoint/id1251245162?mt=8">
-    <img alt="Download on the App Store" title="App Store" src="http://i.imgur.com/0n2zqHD.png" width="140">
-  </a>
-
-  <a href="https://play.google.com/store/apps/details?id=com.gitpoint">
-    <img alt="Get it on Google Play" title="Google Play" src="http://i.imgur.com/mtGRPuM.png" width="140">
-  </a>
+  <b>SDLC is dead, long live SPLC (Secure Product Lifecycle)</b> </br>
+  SPL{ops} is a unified approach for the management of a product lifecycle </br> within the pipeline, from design and modeling to production security
 </p>
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -36,19 +27,24 @@
 
 ## Introduction
 
-[![Build Status](https://img.shields.io/travis/gitpoint/git-point.svg?style=flat-square)](https://travis-ci.org/gitpoint/git-point)
+<!-- [![Build Status](https://img.shields.io/travis/gitpoint/git-point.svg?style=flat-square)](https://travis-ci.org/gitpoint/git-point)
 [![Coveralls](https://img.shields.io/coveralls/github/gitpoint/git-point.svg?style=flat-square)](https://coveralls.io/github/gitpoint/git-point)
 [![All Contributors](https://img.shields.io/badge/all_contributors-73-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
-[![Gitter chat](https://img.shields.io/badge/chat-on_gitter-008080.svg?style=flat-square)](https://gitter.im/git-point)
+[![Gitter chat](https://img.shields.io/badge/chat-on_gitter-008080.svg?style=flat-square)](https://gitter.im/git-point) -->
 
-View repository and user information, control your notifications and even manage your issues and pull requests. Built with React Native, GitPoint is one of the most feature-rich unofficial GitHub clients that is 100% free.
+Since the SDLC inception by Microsoft in 2008, the development world has undergone multiple transformations with extensive impact on the methods products are being designed, developed and operationalized. Those changes, including most noticably the Agile transformation and "everything as code" rendered the SDLC process irrelevant.
 
-**Available for both iOS and Android.**
+None the less, those transformations presents an opportunity for security teams to embed their practices and requirements into the product and business practices and help promote better and more secure development practices from the get-go ("shift left") and furthremore, even enahnce production security through the understanding of the product ecosystem and its components.
+
+SPL{ops} (Secure Product Lifecycle Operations) aims to create a framework for security and product teams to adopt while leveraging Agile and "as code" lifestyles to enhance the security of the product whilst reducing the friction between the teams and the core of all security issues -> being too late to the party. 
+
+
+**The SPL{ops} Framwork.**
 
 <p align="center">
-  <img src = "http://i.imgur.com/HowF6aM.png" width=350>
+  <img src = "http://i.imgur.com/KRfH0Lf.png" width=750>
 </p>
 
 ## Features
