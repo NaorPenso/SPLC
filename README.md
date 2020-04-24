@@ -1,122 +1,93 @@
-<h1 align="center"> SDLOps </h1> <br>
 <p align="center">
   <a href="https://github.com/NaorPenso/SDLOps/">
-    <img alt="SDLOps" title="SDLOps" src="https://i.imgur.com/zkLDA0e.png" width="450">
+    <img alt="SDLOps" title="SDLOps" src="https://i.imgur.com/e5kqHkb.png" width="250">
   </a>
 </p>
-
 <p align="center">
-  Unified approach for the management of SDLC within the CI/CD pipeline, from modeling to production security.
-</p>
-
-<p align="center">
-  <a href="https://itunes.apple.com/us/app/gitpoint/id1251245162?mt=8">
-    <img alt="Download on the App Store" title="App Store" src="http://i.imgur.com/0n2zqHD.png" width="140">
-  </a>
-
-  <a href="https://play.google.com/store/apps/details?id=com.gitpoint">
-    <img alt="Get it on Google Play" title="Google Play" src="http://i.imgur.com/mtGRPuM.png" width="140">
-  </a>
+  <b>SDLC is dead, long live SPLC (Secure Product Lifecycle)</b> </br>
+  SPL{ops} is a unified approach for the management of a product lifecycle </br> within the pipeline, from design and modeling to production security
 </p>
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+</br>
+
+____
+</br>
+
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Feedback](#feedback)
-- [Contributors](#contributors)
-- [Build Process](#build-process)
-- [Backers](#backers-)
-- [Sponsors](#sponsors-)
-- [Acknowledgments](#acknowledgments)
+- [The SPL{ops} Framework](#framework)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+</br></br>
+_____
+</br>
 
 ## Introduction
 
-[![Build Status](https://img.shields.io/travis/gitpoint/git-point.svg?style=flat-square)](https://travis-ci.org/gitpoint/git-point)
+<!-- [![Build Status](https://img.shields.io/travis/gitpoint/git-point.svg?style=flat-square)](https://travis-ci.org/gitpoint/git-point)
 [![Coveralls](https://img.shields.io/coveralls/github/gitpoint/git-point.svg?style=flat-square)](https://coveralls.io/github/gitpoint/git-point)
 [![All Contributors](https://img.shields.io/badge/all_contributors-73-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
-[![Gitter chat](https://img.shields.io/badge/chat-on_gitter-008080.svg?style=flat-square)](https://gitter.im/git-point)
+[![Gitter chat](https://img.shields.io/badge/chat-on_gitter-008080.svg?style=flat-square)](https://gitter.im/git-point) -->
 
-View repository and user information, control your notifications and even manage your issues and pull requests. Built with React Native, GitPoint is one of the most feature-rich unofficial GitHub clients that is 100% free.
+Since the SDLC inception by Microsoft in 2008, the development world has undergone multiple transformations with extensive impact on the methods products are being designed, developed and operationalized. Those changes, including most noticably the Agile transformation and "everything as code" rendered the SDLC process irrelevant.
 
-**Available for both iOS and Android.**
+None the less, those transformations presents an opportunity for security teams to embed their practices and requirements into the product and business practices and help promote better and more secure development practices from the get-go ("shift left") and furthremore, even enahnce production security through the understanding of the product ecosystem and its components.
 
-<p align="center">
-  <img src = "http://i.imgur.com/HowF6aM.png" width=350>
-</p>
+SPL{ops} (Secure Product Lifecycle Operations) aims to create a framework for security and product teams to adopt while leveraging Agile and "as code" lifestyles to enhance the security of the product whilst reducing the friction between the teams and the core of all security issues -> being too late to the party. 
+</br></br></br>
+___
+</br>
 
 ## Features
 
-A few of the things you can do with GitPoint:
+A few of the things you can do with SDL{ops}:
 
-* View user activity feed
-* Communicate on your issue and pull request conversations
-* Close or lock issues
-* Apply labels and assignees
-* Review and merge pull requests
-* Create new issues
-* Star, watch and fork repositories
-* Control your unread and participating notifications
-* Easily search for any user or repository
+* Kickstart product security, for anyone from startups to enterprises
+* Find a purpose built framework for implementing "SDLC" for Agile & Ops Driven teams
+* Get a curated list of opensource and commerical solutions that can fit into the framework
+* Access child projects that extends the framework into the techical realms and help drive product security forward
+</br></br></br>
+___
+</br>
 
-<p align="center">
-  <img src = "http://i.imgur.com/IkSnFRL.png" width=700>
-</p>
+## Framework
 
 <p align="center">
-  <img src = "http://i.imgur.com/0iorG20.png" width=700>
+  <img src = "http://i.imgur.com/KRfH0Lf.png" width=750>
 </p>
+
+| SPL{ops} Project Name | Description | Project Type | Status | More Information | 
+| ------ | --------- | --- | --- | ---|
+| CyberSnippets   | Taking security training to the 21st century with bite-sized training materials on various secure developement methods and techniques   | Training |Pre-Alpha (0%) | [Repo](https://github.com/NaorPenso/CyberSnippets)
+| .Security   | Security specification definition within the code, enabling continuous security support throughout the development lifecycle through to production deployments.  </br></br><i> .Security + .Release + .Deploy = DevSecOps </i> ❤️| Tool |Pre-Alpha (0%)| [Repo](https://github.com/NaorPenso/.Security)
+| CySkeleton   | A skeleton requirements document (Epics, User Stories, Tasks and more) for secure products with full parity to JIRA and other agile task management systems   | Framework |Pre-Alpha (0%)| [Repo](https://github.com/NaorPenso/CySkeleton)
+| Continuous Modeling | Bring continuity and accountability to threat modeling with 3 complimentary engines embedded within the code and CI/CD pipeline | Technology | Backlog | [Specifications](https://airtable.com/shrE0lXxrfHrqfL3p)|
+| Awsome Scanning | A curated list of security scanning tools (SAST, DAST, IAST, Container Scanning etc.), both commercial and open source and their level integration support to CI/CD pipelines | 3rd Party | Pre-Alpha (0%) | [Repo](https://github.com/NaorPenso/awsome-scanning)
+| Code Quality | A curated list of Code Quality tools (commercial and open source) and their level integration support to CI/CD pipelines | 3rd Party | Backlog
+| Awsome Secret | A curated list of secret management tools, both commercial and open source and their level integration support to CI/CD pipelines | 3rd Party | Pre-Alpha (0%) | [Repo](https://github.com/NaorPenso/awsome-scanning)
+| SecBuild   | A framework for security sanity tests as a part of the build process, integrated into common CI/CD deployment tools  | Framework |Backlog| [Specifications](https://airtable.com/shr0rZRAb9ITZml7t)
+| Awsome Secret | A curated list of secret management tools, both commercial and open source and their level integration support to CI/CD pipelines | 3rd Party | Pre-Alpha (0%) | [Repo](https://github.com/NaorPenso/awsome-secret)
+| SecTestOps   | A framework for security testing automation | Framework |Backlog| [Specifications](https://airtable.com/shrYWapfxfQUHyLGF)
+| .Release | Security, Build, Deployment and Governance specifications, dynamically generated to make depoyment and production security a breeze </br></br><i> .Security + .Release + .Deploy = DevSecOps </i> ❤️| Tool |Pre-Alpha (0%)| [Repo](https://github.com/NaorPenso/.Release)
+| .Deploy | Deployment specifications framework for devops, dynamically building deployment templates based on various security and product metrics </br></br><i> .Security + .Release + .Deploy = DevSecOps </i>❤️ | Tool |Backlog| [Repo](https://github.com/NaorPenso/.Deploy)
+| SecurityCanary | Framework for the creation of production replicas to directly enable bounty programs and hackathons, test the impact of security configuration changes and more | Framework |Backlog| [Specifications](https://airtable.com/shrde1VCdubqvrcxw)
+| SecBubble | A tool for the creation of dynamic application whitelisting rules and security packages (e.g. logging package) driven by code and security specifications provided as a part of the CI/CD pipeline  | Framework |Backlog| [Specifications](https://airtable.com/shrQPaDWG887y0LqF)
+| SecMetrics | A framework for security metric creation and enforcement throughout the CI/CD, enabling coherent and actionable evaluation of the product security posture  | Framework |Backlog| [Specifications](https://airtable.com/shrnRbI4NMg5fgWs9)
+
+</br></br></br>
+___
+</br>
 
 ## Feedback
 
-Feel free to send us feedback on [Twitter](https://twitter.com/gitpointapp) or [file an issue](https://github.com/gitpoint/git-point/issues/new). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [guidelines](./CONTRIBUTING.md)!
+Feel free to send me feedback on [Twitter](https://twitter.com/pnaor), [LinkedIn](https://www.linkedin.com/in/naorpenso/) or [file an issue](https://github.com/SPLOps/SPLOps/issues/new). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [guidelines](./CONTRIBUTING.md)!
 
-If there's anything you'd like to chat about, please feel free to join our [Gitter chat](https://gitter.im/git-point)!
+If there's anything you'd like to chat about, please feel free to join our [Slack chat](https://join.slack.com/t/splops/shared_invite/zt-dd27tw6f-2P72cLXO8w71Ad2k6QH6rA)!
 
-## Contributors
-
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification and is brought to you by these [awesome contributors](./CONTRIBUTORS.md).
-
-## Build Process
-
-- Follow the [React Native Guide](https://facebook.github.io/react-native/docs/getting-started.html) for getting started building a project with native code. **A Mac is required if you wish to develop for iOS.**
-- Clone or download the repo
-- `yarn` to install dependencies
-- `yarn run link` to link react-native dependencies
-- `yarn start:ios` to start the packager and run the app in the iOS simulator (`yarn start:ios:logger` will boot the application with [redux-logger](<https://github.com/evgenyrodionov/redux-logger>))
-- `yarn start:android` to start the packager and run the app in the the Android device/emulator (`yarn start:android:logger` will boot the application with [redux-logger](https://github.com/evgenyrodionov/redux-logger))
-
-Please take a look at the [contributing guidelines](./CONTRIBUTING.md) for a detailed process on how to build your application as well as troubleshooting information.
-
-**Development Keys**: The `CLIENT_ID` and `CLIENT_SECRET` in `api/index.js` are for development purposes and do not represent the actual application keys. Feel free to use them or use a new set of keys by creating an [OAuth application](https://github.com/settings/applications/new) of your own. Set the "Authorization callback URL" to `gitpoint://welcome`.
-
-## Backers [![Backers on Open Collective](https://opencollective.com/git-point/backers/badge.svg)](#backers)
-
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/git-point#backer)]
-
-<a href="https://opencollective.com/git-point#backers" target="_blank"><img src="https://opencollective.com/git-point/backers.svg?width=890"></a>
-
-## Sponsors [![Sponsors on Open Collective](https://opencollective.com/git-point/sponsors/badge.svg)](#sponsors)
-
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/git-point#sponsor)]
-
-<a href="https://opencollective.com/git-point/sponsor/0/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/1/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/2/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/3/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/4/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/5/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/6/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/7/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/8/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/9/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/9/avatar.svg"></a>
-
-## Acknowledgments
-
-Thanks to [JetBrains](https://www.jetbrains.com) for supporting us with a [free Open Source License](https://www.jetbrains.com/buy/opensource).
