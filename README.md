@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/NaorPenso/SDLOps/">
-    <img alt="SDLOps" title="SDLOps" src="https://i.imgur.com/e5kqHkb.png" width="250">
+  <a href="https://github.com/NaorPenso/SPLC/">
+    <img alt="SPLC" title="SPLC" src="https://github.com/NaorPenso/SPLC/blob/master/Assets/splc_logo.png" width="250">
   </a>
 </p>
 <p align="center">
